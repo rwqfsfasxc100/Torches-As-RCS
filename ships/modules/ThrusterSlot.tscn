@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ships/modules/ThrusterSlot.tscn" type="PackedScene" id=1]
+
+[node name="ThrusterSlot" instance=ExtResource( 1 )]
+
+[node name="SYSTEM_MAIN_ENGINE_K37" parent="." index="12" instance_placeholder="res://sfx/torch-k37.tscn"]
+priorityOffset = 2.0
+fadeSeconds = 0.2
+
+[node name="SYSTEM_MAIN_ENGINE_NMPD" parent="." index="13" instance_placeholder="res://sfx/torch-NMPD.tscn"]
+priorityOffset = 2.0
+fadeSeconds = 0.2
+
+[node name="SYSTEM_MAIN_ENGINE_NPMP" parent="." index="14" instance_placeholder="res://sfx/torch-NPMP.tscn"]
+priorityOffset = 2.0
+fadeSeconds = 0.2
+
+[node name="SYSTEM_MAIN_ENGINE_NDNTR" parent="." index="15" instance_placeholder="res://sfx/torch-NDNTR.tscn"]
+priorityOffset = 2.0
+
+[node name="SYSTEM_MAIN_ENGINE_ZURBIN" parent="." index="16" instance_placeholder="res://sfx/torch-ZUBRIN.tscn"]
+priorityOffset = 4.0
+
+[node name="SYSTEM_MAIN_ENGINE_PMS" parent="." index="17" instance_placeholder="res://sfx/torch-PMS.tscn"]
+priorityOffset = 2.0
+
+[node name="SYSTEM_MAIN_ENGINE_K44" parent="." index="18" instance_placeholder="res://sfx/torch-k44.tscn"]
+priorityOffset = 2.0
+
+[node name="SYSTEM_MAIN_ENGINE_BWMT535" parent="." index="19" instance_placeholder="res://sfx/torch-bwm-t535.tscn"]
+
+[node name="SYSTEM_MAIN_ENGINE_PNTR" parent="." index="20" instance_placeholder="res://sfx/torch-pntr.tscn"]
+
+[node name="SYSTEM_MAIN_ENGINE_DFMPD2205" parent="." index="21" instance_placeholder="res://sfx/torch-dfmpd.tscn"]
+
+[node name="SYSTEM_MAIN_ENGINE_EIZAP" parent="." index="22" instance_placeholder="res://sfx/torch-zpinch.tscn"]
