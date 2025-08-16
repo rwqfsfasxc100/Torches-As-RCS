@@ -1,0 +1,22 @@
+[mod_information]
+
+id="hev.TorchesAsRCS"
+name="Torches As RCS"
+description="Adds the ability to fit torches to the RCS slots."
+author="__hev"
+
+[version]
+
+version_major=1
+version_minor=0
+version_bugfix=0
+
+[tags]
+
+allow_achievements=true
+fun=true
+language=["en"]
+
+[manifest_definitions]
+
+manifest_version=2.1
